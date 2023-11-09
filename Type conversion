@@ -1,0 +1,40 @@
+Type conversion is a handy feature in Python that allows you to convert one data type to another. Here's a simple Python program that demonstrates type conversion:
+
+python
+Copy code
+# Integer to String
+age = 25
+age_str = str(age)
+print("Age as String:", age_str)
+
+# Float to Integer
+height = 5.9
+height_int = int(height)
+print("Height as Integer:", height_int)
+
+# String to Integer
+num_str = "123"
+num_int = int(num_str)
+print("String to Integer:", num_int)
+
+# String to Float
+float_str = "3.14"
+float_num = float(float_str)
+print("String to Float:", float_num)
+
+# Integer to Boolean
+is_adult = bool(age)
+print("Is Adult (based on age):", is_adult)
+
+# List to Tuple
+numbers_list = [1, 2, 3]
+numbers_tuple = tuple(numbers_list)
+print("List to Tuple:", numbers_tuple)
+
+# Set to List
+fruits_set = {"apple", "orange", "banana"}
+fruits_list = list(fruits_set)
+print("Set to List:", fruits_list)
+In this program, we convert integers to strings, floats to integers, strings to integers and floats, and even use boolean conversion based on the age variable. We also convert a list to a tuple and a set to a list.
+
+Type conversion can be essential when you need to perform operations or comparisons between different data types. Python provides built-in functions like str(), int(), float(), bool(), list(), tuple(), and more for type conversion.
